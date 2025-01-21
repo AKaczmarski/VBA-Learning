@@ -1,0 +1,22 @@
+Enable the Developer Tab.
+Alt+F11 opens the Visual Basic editor.
+The Microsoft Visual Basic editor window will appear.
+
+In the Project - VBAProject window, right-click on Microsoft Excel Objects, then go to Insert > Module. A new module will appear.
+
+Use the keyword Sub followed by the name of the procedure. In my case, I used Test. After pressing Enter, parentheses () and End Sub will automatically be added. The parentheses will be empty (no arguments). End Sub marks the end of the procedure.
+
+Add MsgBox to display a message box. The message should be written in quotation marks.
+
+Run the program using F5 or go to Macros in Excel, select your macro, and click Run.
+
+Save the file in xlsm format.
+
+
+Code:
+
+Sub Test()
+
+MsgBox "Test"
+
+End Sub
